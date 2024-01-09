@@ -1,0 +1,11 @@
+.app-component-container {
+  top: 121px;
+  left: 305px;
+  width: 436px;
+  height: 379px;
+  display: flex;
+  position: relative;
+  background-size: cover;
+  background-image: url("public/screenshot_2024-01-07_200818-removebg-preview-400h.png");
+  background-position: center;
+}
