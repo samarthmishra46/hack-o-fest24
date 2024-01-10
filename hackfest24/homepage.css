@@ -353,6 +353,17 @@ html, body {
   height: auto;
   margin-top: 111px;
   object-fit: cover;
+  animation: uptodownFade 3s ease-in-out forwards;
+}
+@keyframes uptodownFade {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+100% {
+    transform: translateY(0);
+    opacity: 1;
+}
 }
 .homepage-text {
   color: white;
