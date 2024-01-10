@@ -361,7 +361,23 @@ html, body {
   font-style: normal;
   text-align: center;
   font-weight: 600;
+ animation: leftToRightFade 3s ease-in-out forwards;
 }
+
+@keyframes leftToRightFade {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+
+
+
+
 .homepage-footer {
   width: 100%;
   height: auto;
